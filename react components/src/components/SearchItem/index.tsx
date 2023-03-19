@@ -1,8 +1,8 @@
-import { FC } from 'react';
+import { ChangeEvent, FC } from 'react';
 import './style.css';
 
 interface SearchItemProps {
-  onUpdateSearch: (e: any) => void;
+  onUpdateSearch: (e: ChangeEvent<HTMLInputElement>) => void;
   searchString: string;
 }
 

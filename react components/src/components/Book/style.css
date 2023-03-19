@@ -7,7 +7,6 @@
   border-color: #ced4da;
   margin-bottom: 10px;
   position: relative;
-
 }
 
 .book-picture {
@@ -16,7 +15,7 @@
 }
 
 .book-title {
-  color: #39424C;
+  color: #39424c;
   font-size: 18px;
   font-weight: bold;
   line-height: 24px;

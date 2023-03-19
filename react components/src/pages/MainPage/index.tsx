@@ -19,7 +19,7 @@ export function searchEmp(bookInformation: BookProps[], searchString: string) {
 }
 
 class MainPage extends Component {
-  constructor(props: {}) {
+  constructor(props: Record<string, never>) {
     super(props);
 
     this.state = {
